@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAnswer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer for Question 1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/tvResponse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"  />
+    
+        <TextView
+        android:id="@+id/tvAnswer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer for Question 2" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/tvResponse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"  />
+    
+        <TextView
+        android:id="@+id/tvAnswer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer for Question 3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"  />
+
+    <TextView
+        android:id="@+id/tvResponse3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"  />
+    
+     <TextView
+        android:id="@+id/tvAnswer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer for Question 4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"  />
+
+    <TextView
+        android:id="@+id/tvResponse4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"  />
+    
+       <TextView
+        android:id="@+id/tvAnswer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer for Question 5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"  />
+
+    <TextView
+        android:id="@+id/tvResponse5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="25dp"
+        android:weightSum="100" >
+    
+    <TextView
+        android:id="@+id/tvDoYouWant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to Submit this Survey?" />    
+        
+    <Button
+            android:id="@+id/btnFinalSubmit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:paddingLeft="10dp"
+            android:text="Submit Survery" />
+
+    </LinearLayout>
+</LinearLayout>
